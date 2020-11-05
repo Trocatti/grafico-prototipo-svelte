@@ -1,0 +1,122 @@
+export default [{
+        atendimento: '101010',
+        dias: [{
+                dia: 1,
+                clusters: [{
+                    cluster: 1,
+                    itens: [{
+                            item: 10101012,
+                            amostras: 210,
+                            ocorrencias: 123,
+                            tempoMedioDeslocado: 0,
+                            qtd: 10,
+                            aceito: 111,
+                            removido: "12,3",
+                            frequencia: "0,5857",
+                            relevancia: "0,90",
+                            valor: 50
+                        },
+                        {
+                            item: 10101012,
+                            amostras: 210,
+                            ocorrencias: 123,
+                            tempoMedioDeslocado: 0,
+                            qtd: 10,
+                            aceito: 111,
+                            removido: "12,3",
+                            frequencia: "0,5857",
+                            relevancia: "0,90",
+                            valor: 50
+                        }
+                    ]
+                }]
+            },
+            {
+                dia: 2,
+                clusters: [{
+                        cluster: 1,
+                        itens: [{
+                                item: 10101012,
+                                amostras: 210,
+                                ocorrencias: 123,
+                                tempoMedioDeslocado: 0,
+                                qtd: 10,
+                                aceito: 111,
+                                removido: "12,3",
+                                frequencia: "0,5857",
+                                relevancia: "0,90",
+                                valor: 27
+                            },
+                            {
+                                item: 10101012,
+                                amostras: 210,
+                                ocorrencias: 123,
+                                tempoMedioDeslocado: 0,
+                                qtd: 10,
+                                aceito: 111,
+                                removido: "12,3",
+                                frequencia: "0,5857",
+                                relevancia: "0,90",
+                                valor: 10
+                            }
+                        ]
+                    },
+                    {
+                        cluster: 9,
+                        itens: [{
+                                item: 10101012,
+                                amostras: 210,
+                                ocorrencias: 123,
+                                tempoMedioDeslocado: 0,
+                                qtd: 10,
+                                aceito: 111,
+                                removido: "12,3",
+                                frequencia: "0,5857",
+                                relevancia: "0,90",
+                                valor: 33
+                            },
+                            {
+                                item: 10101012,
+                                amostras: 210,
+                                ocorrencias: 123,
+                                tempoMedioDeslocado: 0,
+                                qtd: 10,
+                                aceito: 111,
+                                removido: "12,3",
+                                frequencia: "0,5857",
+                                relevancia: "0,90",
+                                valor: 50
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        atendimento: '202020',
+        dias: [{
+                dia: 1,
+                clusters: []
+            },
+            {
+                dia: 2,
+                clusters: [{
+                    cluster: 2,
+                    itens: [{
+                        item: 10101012,
+                        amostras: 210,
+                        ocorrencias: 123,
+                        tempoMedioDeslocado: 0,
+                        qtd: 10,
+                        aceito: 111,
+                        removido: "12,3",
+                        frequencia: "0,5857",
+                        relevancia: "0,90",
+                        valor: 50
+                    }]
+                }]
+            }
+        ]
+    }
+]
